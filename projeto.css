@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: 0;
+}
+
+.logo {
+    color: red;
+    padding: 2px;
+    height: 45px;
+    padding-left: 5%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(230, 237, 237);
+    margin: auto;
+    min-width: 320px;
+    max-width: 1280px;
+}
+
+.london {
+    background: url('imagens/london.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    width: 823px;
+    height: 240px;
+    margin: 100px auto;
+    background-color: white;
+    position: relative;
+}
+
+.nav .ul {
+    display: none;
+}
+
+nav ul li {
+    justify-content: center;
+    display: inline-block;
+}
+
+nav label {
+    width: 275px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: -4px;
+
+}
+
+.rb_tabs:checked~label {
+    transition: .3s;
+    background-color: rgba(255, 21, 0, 0.813);
+}
+
+.rb_tabs {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    width: 835px;
+    height: 192px;
+    left: 0;
+    display: none;
+}
+
+.rb_tabs:checked~.content {
+    display: block;
+}
+
+.p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 12px;
+    
+}
+
+.input {
+    margin-top: 2px;
+    margin-left: 13px;
+    width: 390px;
+    font-size: 15px;
+    height: 35px;
+    text-align: justify;
+}
+
+.p1 {
+    margin-left: 13px;
+    margin-top: 15px;
+    width: 396px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.botao {
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: rgb(75, 73, 73);
+    border: none;
+    color: white;
+    width: 45mm;
+}
+
+.botao:hover {
+    background-color: black;
+
+}
+
+.container4 {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#p2 {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.container3 {
+    width: 1050px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 8px;
+    display: grid;
+    grid-template-areas:
+        'img img1 img2'
+        'img img3 img4';
+}
+
+#img {
+    grid-area: img;
+}
+
+#img1 {
+    grid-area: img1;
+}
+
+#img2 {
+    grid-area: img2;
+}
+
+#img3 {
+    grid-area: img3;
+}
+
+#img4 {
+    grid-area: img4;
+}
+
+#cinqueterre {
+    width: 500px;
+    height: 392px;
+}
+
+#newyork {
+    width: 260px;
+    height: 190px;
+}
+
+#sanfran {
+    width: 260px;
+    height: 190px;
+}
+
+#pisa {
+    width: 260px;
+    height: 190px;
+}
+
+#paris {
+    width: 260px;
+    height: 190px;
+}
+
+.container5 {
+    width: 1050px;
+    height: 235px;
+    margin-left: 100px;
+    margin-top: 8px;
+    display: grid;
+    grid-template-areas:
+        'img5 img5 img6 img6';
+}
+
+#img5 {
+    grid-area: img5;
+}
+
+#img6 {
+    grid-area: img6;
+}
+
+#ocean {
+    width: 515px;
+    height: 235px;
+}
+
+#mountains {
+    width: 515px;
+    height: 235px;
+}
+
+.container6 {
+    width: 1040px;
+    height: 160px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-areas:
+        'img7  img8';
+}
+
+#img7 {
+    grid-area: img7;
+
+}
+
+#img8 {
+    grid-area: img8;
+    margin-left: 10px;
+}
+
+#p3 {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#p4 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h5 {
+    font-size: 23px;
+
+}
+
+#p5 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container6 div {
+    background-color: white;
+    padding: 6px;
+
+}
+
+.container7 {
+    width: 1050px;
+    height: 230px;
+    background-color: rgb(13, 12, 12);
+    margin-left: 100px;
+    margin-top: 40px;
+
+
+}
+
+.container7 form {
+
+    margin-right: 15px;
+    padding: 15px;
+
+
+}
+
+#p6 {
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+#p7 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#b2 {
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+#input1 {
+    width: 1021px;
+    height: 30px;
+    text-align: justify;
+}
+
+.container7 label {
+    color: white
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 1040px;
+    height: 200px;
+
+}
+
+#input2 {
+    margin-top: 10px;
+    height: 30px;
+    width: 1040px;
+    font-size: 13px;
+    border: 1px rgb(217, 214, 214) solid;
+
+}
+
+#p8 {
+    font-size: 25px;
+}
